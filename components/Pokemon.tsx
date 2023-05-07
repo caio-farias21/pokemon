@@ -4,9 +4,7 @@ import axios from "axios";
 export default function Pokemon({ pokemonURL }): ReactElement {
   const [pokemon, setPokemon] = useState(null);
   useEffect(() => {
-    axios.get(pokemonURL).then((response) => {
-      setPokemon(response.data), console.log(response.data);
-    });
+    axios.get(pokemonURL).then((response) => setPokemon(response.data));
   }, []);
 
   if (pokemon === null) {

@@ -1,5 +1,3 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
 import Pokemon from "../../components/Pokemon";
 import Footer from "../../components/Footer";
 

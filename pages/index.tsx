@@ -7,7 +7,6 @@ export default function Home() {
   const [object, setObject] = useState([]);
   const maxPokemons = 15;
   const endpoint = `https://pokeapi.co/api/v2/pokemon?limit=${maxPokemons}`;
-  const HOW_MANY_POKEMONS = 1015;
 
   useEffect(() => {
     axios.get(endpoint).then((response) => {
