@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Inter";
+  letter-spacing: -0.075em;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 54px;
+  margin: 0;
+  padding: 0;
+}
+
+.github:hover {
+  cursor: pointer;
+  color: #ff6b57;
+  transition: ease-in-out 0.3s;
+}
+
+.grey {
+  background-color: rgb(226, 226, 226);
+}
+
+.card {
+  min-width: 100%;
+}
