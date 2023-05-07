@@ -53,7 +53,7 @@ export default function Home() {
         <hr />
         <div className="mt-2 mb-5">
           <button
-            className="btn btn-secondary mx-2"
+            className="btn btn-secondary me-2"
             onClick={() => (location.href = "/")}
           >
             <i className="bi bi-arrow-left"></i>
