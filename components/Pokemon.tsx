@@ -3,6 +3,7 @@ import axios from "axios";
 
 export default function Pokemon({ pokemonURL }): ReactElement {
   const [pokemon, setPokemon] = useState(null);
+
   useEffect(() => {
     axios.get(pokemonURL).then((response) => setPokemon(response.data));
   }, []);
@@ -12,16 +13,16 @@ export default function Pokemon({ pokemonURL }): ReactElement {
       <div className="col">
         <div className="card" aria-hidden="true">
           <div className="row g-0">
-            <div className="col-md-4 grey">
+            <div className="col-md-4 grey align-items-center row m-0 p-5">
               <img
                 src=""
-                className="img-fluid rounded-start mx-auto my-auto d-block hidden"
+                className="img-fluid rounded-start mx-auto d-block col hidden"
                 alt=""
               />
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title placeholder-glow">
+                <h5 className="card-title placeholder-glow ">
                   <span className="placeholder col-6"></span>
                 </h5>
                 <div className="card-text placeholder-glow">

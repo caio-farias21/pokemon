@@ -33,9 +33,9 @@ export default function Home() {
           </span>
         </h1>
         <hr />
-        <div className="mt-2 mb-5 justify-content-start justify-content-between-md">
+        <div className="mt-2 mb-5 ms-2 justify-content-center justify-content-md-start row">
           <button
-            className="btn btn-secondary"
+            className="btn btn-secondary col-7-md col-auto"
             onClick={() => (location.href = "/six-random")}
           >
             <i className="bi bi-6-square"></i>

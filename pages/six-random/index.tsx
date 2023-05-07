@@ -51,16 +51,16 @@ export default function Home() {
           </span>
         </h1>
         <hr />
-        <div className="mt-2 mb-5">
+        <div className="mt-2 mb-5 ms-2 justify-content-center justify-content-md-start row">
           <button
-            className="btn btn-secondary me-2"
+            className="btn btn-secondary me-2 col col-md-2"
             onClick={() => (location.href = "/")}
           >
             <i className="bi bi-arrow-left"></i>
             <span className="ms-2">Página Anterior</span>
           </button>
           <button
-            className="btn btn-secondary mx-2"
+            className="btn btn-secondary mx-2 col col-md-1"
             onClick={() => (location.href = "/six-random")}
           >
             <i className="bi bi-arrow-clockwise"></i>
