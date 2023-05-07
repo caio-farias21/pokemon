@@ -22,11 +22,19 @@ export default function Home() {
     <>
       <div className="container my-5">
         <h1 className="text-center text-md-start">
-          <span style={{ color: "#423b3b" }}>Poke</span>
-          <span style={{ color: "#ff6b57" }}>mon</span>
+          <img
+            src="https://cdn.pixabay.com/photo/2019/11/27/14/06/pokemon-4657023_1280.png"
+            className="me-3"
+            width={50}
+            alt="pokeball"
+          />
+          <span className="align-middle">
+            <span style={{ color: "#423b3b" }}>Poke</span>
+            <span style={{ color: "#ff6b57" }}>mon</span>
+          </span>
         </h1>
         <hr />
-        <div className="mt-2 mb-5">
+        <div className="mt-2 mb-5 justify-content-start justify-content-between-md">
           <button
             className="btn btn-secondary"
             onClick={() => (location.href = "/six-random")}
