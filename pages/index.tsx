@@ -28,7 +28,7 @@ export default function Home() {
             alt="pokeball"
           />
           <span className="align-middle">
-            <span style={{ color: "#423b3b" }}>Poke</span>
+            <span style={{ color: "#423b3b" }}>Poké</span>
             <span style={{ color: "#ff6b57" }}>mon</span>
           </span>
         </h1>
@@ -39,7 +39,7 @@ export default function Home() {
             onClick={() => (location.href = "/six-random")}
           >
             <i className="bi bi-6-square"></i>
-            <span className="ms-2">Six Random Pokemons</span>
+            <span className="ms-2">Seis Pokémons Aleatórios</span>
           </button>
         </div>
         <div

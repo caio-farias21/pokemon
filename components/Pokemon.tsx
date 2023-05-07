@@ -35,7 +35,7 @@ export default function Pokemon({ pokemonURL }): ReactElement {
                   </div>
                   <div>
                     <span className="placeholder col-1 me-1"></span>
-                    <span className="placeholder col-5"></span>
+                    <span className="placeholder col-6"></span>
                   </div>
                   <div>
                     <span className="placeholder col-1 me-1"></span>
@@ -80,13 +80,13 @@ export default function Pokemon({ pokemonURL }): ReactElement {
                 <div>
                   <i className="bi bi-heart-half mx-2"></i>
                   <span className="ms-1">
-                    Attack: {pokemon.stats[1].base_stat}
+                    Ataque: {pokemon.stats[1].base_stat}
                   </span>
                 </div>
                 <div>
                   <i className="bi bi-shield-fill mx-2"></i>
                   <span className="ms-1">
-                    Defense: {pokemon.stats[2].base_stat}
+                    Defesa: {pokemon.stats[2].base_stat}
                   </span>
                 </div>
               </div>

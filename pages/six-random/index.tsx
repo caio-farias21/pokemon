@@ -46,7 +46,7 @@ export default function Home() {
             alt="pokeball"
           />
           <span className="align-middle">
-            <span style={{ color: "#423b3b" }}>Poke</span>
+            <span style={{ color: "#423b3b" }}>Poké</span>
             <span style={{ color: "#ff6b57" }}>mon</span>
           </span>
         </h1>
@@ -57,14 +57,14 @@ export default function Home() {
             onClick={() => (location.href = "/")}
           >
             <i className="bi bi-arrow-left"></i>
-            <span className="ms-2">Previous Page</span>
+            <span className="ms-2">Página Anterior</span>
           </button>
           <button
             className="btn btn-secondary mx-2"
             onClick={() => (location.href = "/six-random")}
           >
             <i className="bi bi-arrow-clockwise"></i>
-            <span className="ms-2">Refresh</span>
+            <span className="ms-2">Atualizar</span>
           </button>
         </div>
         <div
