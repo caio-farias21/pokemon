@@ -3,10 +3,7 @@ import React, { ReactElement } from "react";
 export default function Card(): ReactElement {
   return (
     <footer className="border-top text-center py-3">
-      <i
-        className="bi bi-bookmark-check-fill me-2"
-        style={{ color: "red" }}
-      ></i>
+      <i className="bi bi-bookmark-check-fill me-2 text-red"></i>
       Made by{" "}
       <span
         className="fw-bold github"

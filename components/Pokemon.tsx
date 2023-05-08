@@ -13,13 +13,7 @@ export default function Pokemon({ pokemonURL }): ReactElement {
       <div className="col">
         <div className="card" aria-hidden="true">
           <div className="row g-0">
-            <div className="col-md-4 grey align-items-center row m-0 p-5">
-              <img
-                src=""
-                className="img-fluid rounded-start mx-auto d-block col hidden"
-                alt=""
-              />
-            </div>
+            <div className="col-md-4 grey align-items-center row m-0 p-5"></div>
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title placeholder-glow ">
@@ -61,7 +55,7 @@ export default function Pokemon({ pokemonURL }): ReactElement {
                 <img
                   src={pokemon.sprites.front_default}
                   className="img-fluid rounded-start mx-auto d-block col"
-                  alt="..."
+                  alt={pokemon.name}
                 />
               </div>
             </div>

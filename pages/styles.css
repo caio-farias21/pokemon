@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 
+:root {
+  --dark: #000;
+  --mid-dark: #423b3b;
+  --mid-red: #ff6b57;
+  --grey: rgb(226, 226, 226);
+}
 * {
   font-family: "Inter";
   letter-spacing: -0.075em;
@@ -21,14 +27,26 @@ img {
   -webkit-user-select: none;
 }
 
+.text-red {
+  color: red;
+}
+
+.text-mid-red {
+  color: var(--mid-red);
+}
+
+.text-mid-dark {
+  color: var(--mid-dark);
+}
+
 .github:hover {
   cursor: pointer;
-  color: #ff6b57;
-  transition: ease-in-out 0.3s;
+  color: var(--mid-red);
+  transition: ease-in-out 0.2s;
 }
 
 .grey {
-  background-color: rgb(226, 226, 226);
+  background-color: var(--grey);
 }
 
 .card {
