@@ -29,3 +29,9 @@ Depois de iniciar o npm, execute o seguinte comando no terminal para instalar o 
 ```
 npm install next react react-dom axios bootstrap-icons
 ```
+
+### Passo 3: Inicie o projeto
+
+```
+npm run dev
+```
