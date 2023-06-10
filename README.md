@@ -1,5 +1,9 @@
 # Pokemon
 
+Acesse um preview do site final aqui:
+[Website](https://pokemon-caiofarias21.vercel.app)
+
+### Demo
 <img src="https://raw.githubusercontent.com/caio-farias21/pokemon/main/assets/preview.png"/>
 
 Aplicação Next.js usando a PokeAPI
@@ -31,7 +35,7 @@ npm install next react react-dom axios bootstrap-icons
 ```
 
 ### Passo 3: Inicie o projeto
-
+Após criar o script "dev": "next dev", você pode iniciar uma versão de desenvolvimento atráves do comando:
 ```
 npm run dev
 ```
